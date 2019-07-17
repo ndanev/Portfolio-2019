@@ -303,6 +303,10 @@ body {
     font-size: 18px;
 }
 
+.subject-card p {
+    font-weight: 300;
+}
+
 /* ABOUT SECTION */
 
 #about {

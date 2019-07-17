@@ -443,9 +443,9 @@ body {
     }
 
     #logo img {
-        height: 80px;
+        height: 60px;
         line-height: 80px;
-        margin-top: 0;
+        margin-top: 10px;
     }
 
     .aboute-content-right img {
@@ -469,8 +469,9 @@ body {
     }
 
     #image-section-1 {
-        width: 200px;
-        top: 600px;
+        /* width: 200px;
+        top: 600px; */
+        display: none;
     }
 
     #mail {

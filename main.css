@@ -501,6 +501,8 @@ body {
 
     .first-section-subjects {
         margin-left: 0;
+        display: block;
+        height: 100%;
     }
 
     .aboute-content-right img {

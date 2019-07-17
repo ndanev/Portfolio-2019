@@ -525,4 +525,10 @@ body {
     .project-card {
         margin-top: 50px;
     }
+
+    .subject-card {
+        text-align: center;
+        /* height: 28vh; */
+        padding: 30px 20px;
+    }
 }

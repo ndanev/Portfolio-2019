@@ -273,13 +273,13 @@ body {
 }
 
 .first-section-subjects {
-    display: flex;
+    /* display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
     align-content: center;
     margin-left: -40px;
-    height: 20vh;
+    height: 20vh; */
 }
 
 .first-section-subjects .subject-card:nth-child(2) {

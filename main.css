@@ -438,6 +438,16 @@ body {
 /* MEDIA QUERY */
 
 @media (max-width: 500px) {
+    .second-header {
+        height: 80px;
+    }
+
+    #logo img {
+        height: 80px;
+        line-height: 80px;
+        margin-top: 0;
+    }
+
     .aboute-content-right img {
         width: 100%;
         margin-top: 50px;

@@ -30,7 +30,7 @@ body {
   display: none;
 }
 
-.menu-humburger > .menu-humbirger-inner {
+.menu-humburger>.menu-humbirger-inner {
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -40,7 +40,7 @@ body {
   align-items: center;
 }
 
-.menu-humburger > .menu-humbirger-inner > div {
+.menu-humburger>.menu-humbirger-inner>div {
   height: 3px;
   width: 100%;
   background-color: #000000;
@@ -60,18 +60,18 @@ body {
   display: none;
 }
 
-.menu-small-devices > .menu-small-devices-wraper > ul {
+.menu-small-devices>.menu-small-devices-wraper>ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
-.menu-small-devices > .menu-small-devices-wraper > ul > li {
+.menu-small-devices>.menu-small-devices-wraper>ul>li {
   display: block;
 }
 
-.menu-small-devices > .menu-small-devices-wraper > ul > li > a {
+.menu-small-devices>.menu-small-devices-wraper>ul>li>a {
   display: block;
   padding: 20px 0px;
   font-weight: 300;
@@ -80,16 +80,11 @@ body {
   text-decoration: none;
 }
 
-.menu-small-devices > .menu-small-devices-wraper > ul > li > a:hover {
+.menu-small-devices>.menu-small-devices-wraper>ul>li>a:hover {
   color: #3d92fd;
 }
 
-.menu-small-devices
-  > .menu-small-devices-wraper
-  > ul
-  > li
-  > #mail-small-devices
-  > img {
+.menu-small-devices>.menu-small-devices-wraper>ul>li>#mail-small-devices>img {
   border-radius: 50%;
   width: 30px;
   height: 30px;
@@ -281,7 +276,7 @@ body {
   text-decoration: none;
   /* color: #ffffff; */
   /* color: #023dbc; */
-  color: #000000;
+  color: #00ff9dcb;
   float: right;
   line-height: 100px;
   font-weight: 300;
@@ -289,7 +284,7 @@ body {
 }
 
 #mail:hover {
-  color: #00fa9a;
+  color: #000000;
 }
 
 #mail img {
@@ -323,11 +318,11 @@ body {
   margin: 0 20px;
 }
 
-.second-header-links ul li:last-child > a {
+.second-header-links ul li:last-child>a {
   position: relative;
 }
 
-.second-header-links ul li:last-child > a > span {
+.second-header-links ul li:last-child>a>span {
   position: absolute;
   top: 15px;
   left: 15px;
@@ -383,6 +378,7 @@ body {
 .subject-card h4 {
   font-weight: 400;
   font-size: 18px;
+
 }
 
 .subject-card p {
@@ -481,14 +477,14 @@ body {
   overflow: hidden;
 }
 
-.project-card a:nth-child(1):hover > .project-inner-content {
+.project-card a:nth-child(1):hover>.project-inner-content {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.project-card a:nth-child(1):hover > img {
+.project-card a:nth-child(1):hover>img {
   transform: scale(1.1);
   transition: 0.5s;
 }

@@ -274,9 +274,9 @@ body {
 
 #mail {
   text-decoration: none;
-  /* color: #ffffff; */
+  color: #000000;
   /* color: #023dbc; */
-  color: #00ff9dcb;
+  /* color: #00ff9dcb; */
   float: right;
   line-height: 100px;
   font-weight: 300;
@@ -284,7 +284,7 @@ body {
 }
 
 #mail:hover {
-  color: #000000;
+  color: #023dbc;
 }
 
 #mail img {

@@ -331,6 +331,10 @@ body {
   color: #023dbc;
 }
 
+/* #mail:hover>img {
+  border: 2.5px solid rgba(61, 146, 253, 0.7);
+} */
+
 #mail img {
   width: 40px;
   height: 40px;

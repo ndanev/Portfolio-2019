@@ -18,6 +18,8 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="main.css" />
     <script src="main.js"></script>
 </head>
@@ -164,7 +166,7 @@
         </div>
     </div>
 
-    <section id="about">
+    <section id="about" data-aos="fade-up">
         <div class="wraper">
             <div class="about-content">
                 <div class="row">
@@ -253,7 +255,7 @@
         </div>
     </section>
 
-    <section id="projects">
+    <section id="projects" data-aos="fade-up">
         <div class="wraper">
             <h3 class="mb-5 text-center">Projects</h3>
             <div class="row mb-5">
@@ -356,6 +358,13 @@
         </div>
     </section>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 400,
+            duration: 1000
+        });
+    </script>
 </body>
 
 </html>

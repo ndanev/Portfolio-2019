@@ -220,7 +220,7 @@ html {
 .inner-content {
     position: relative;
     height: auto;
-    top: 33%;
+    top: 30%;
     left: 0;
 }
 
@@ -399,8 +399,11 @@ html {
 }
 
 #logo {
-    color: #6cdaee;
+    color: #3d92fd;
+    font-family: "Poppins", sans-serif;
     text-decoration: none;
+    display: flex;
+    align-items: flex-end;
 }
 
 #logo img {
@@ -427,8 +430,20 @@ html {
     text-align: center;
     padding: 40px;
     background-color: #f9f9f9;
-    border-radius: 50%;
     transition: 0.5s;
+}
+
+.subject-card img {
+    margin-bottom: 20px;
+}
+
+.subject-card a {
+    text-decoration: none;
+    background-color: #3d92fd;
+    color: #fff;
+    border: 1px solid #3d92fd;
+    padding: 5px 15px;
+    border-radius: 20px;
 }
 
 .subject-card:hover {
@@ -463,7 +478,6 @@ html {
 }
 
 .aboute-content-left h3 {
-    /* font-family: "Righteous", cursive; */
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 3em;
@@ -509,16 +523,6 @@ html {
 
 #projects {
     padding: 80px 0px;
-    /* background: url("img/image2.jpg"); */
-    /* background-image: linear-gradient(
-    to right top,
-    #5f72bd,
-    #6069cf,
-    #6b5cdd,
-    #8049e6,
-    #9b23ea
-  ); */
-    /* background-color: #f9f9f9; */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -529,10 +533,10 @@ html {
 
 #projects h3 {
     font-size: 3em;
-    /* font-family: "Righteous", cursive; */
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     color: #000000;
+    margin-bottom: 40px;
 }
 
 .project-card a {
@@ -570,21 +574,6 @@ html {
     background-color: #3d92fd;
     color: #ffffff !important;
 }
-
-/* .project-inner-content {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: #000000;
-  font-size: 1.5em;
-  transition: 0.5s;
-  border-radius: 3px;
-
-  display: none;
-} */
 
 .projectinner-content-wrapp {
     display: flex;

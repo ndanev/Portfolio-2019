@@ -9,8 +9,6 @@ function loadProjects() {
         if (this.status == 200) {
             var projects = JSON.parse(this.responseText);
 
-            console.log(projects);
-
             var output = "";
 
             for (var i in projects) {

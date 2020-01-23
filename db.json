@@ -1,0 +1,37 @@
+[
+    {
+        "id": 4,
+        "title": "Tastyland website",
+        "website": "https://tastyland-website.netlify.com/",
+        "img": "./img/tastyland-removebg-preview.png"
+    },
+    {
+        "id": 3,
+        "title": "Restoran nacionalna klasa",
+        "website": "https://www.nacionalna-klasa.rs/",
+        "img": "./img/nacionalna-klasa.png"
+    },
+    {
+        "id": 1,
+        "title": "Eventool",
+        "website": "https://eventool.netlify.com/",
+        "img": "./img/eventool-mock-up-image-removebg-preview.png"
+    },
+    {
+        "id": 2,
+        "title": "Portfolio 2020",
+        "website": "https://portfolio-2019-new.netlify.com/",
+        "img": "./img/portfolio-2019-image-removebg-preview.png"
+    },
+    {
+        "id": 5,
+        "title": "Fizikalna terapija",
+        "website": "https://www.fizikalnaterapija-beograd.com/",
+        "img": "./img/fizikalna-terapija.png"
+    },
+    {
+        "id": 6,
+        "title": "Mentalna aritmetika SuanPan",
+        "img": "./img/mockup2-removebg-preview.png"
+    }
+]

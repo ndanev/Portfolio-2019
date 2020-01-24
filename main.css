@@ -23,6 +23,37 @@ html {
     padding: 0 20px;
 }
 
+/* GMAIL */
+
+.contact-gmail {
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+}
+
+.contact-gmail a {
+    display: block;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-gmail a img {
+    transition: all 0.3s;
+}
+
+.contact-gmail a:hover > img {
+    transform: scale(1.1);
+}
+
 /* DROPDOWN MENU */
 
 #dropdown-menu {
@@ -224,6 +255,10 @@ html {
     left: 0;
 }
 
+.first-section-content {
+    text-align: center;
+}
+
 .first-section-content h1 {
     color: #ffffff;
     font-family: "Poppins", sans-serif;
@@ -234,11 +269,11 @@ html {
 }
 
 .first-section-content h2 {
-    display: table;
+    /* display: table; */
     color: #ffffff;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-size: 2.5em;
+    font-size: 2em;
     border-radius: 3px;
 }
 
@@ -247,10 +282,6 @@ html {
     font-size: 1.2em;
     margin-bottom: 30px;
     font-weight: 400;
-}
-
-.text-mrg {
-    margin-bottom: 0 !important;
 }
 
 .first-section-content a {

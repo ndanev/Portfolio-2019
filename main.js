@@ -12,23 +12,19 @@ function loadProjects() {
             var output = "";
 
             for (var i in projects) {
-                output +=
-                    '<div class="col-md-4">' +
-                    '<div class="project-card">' +
-                    '<a target="_blank" href=" ' +
-                    projects[i].website +
-                    ' ">' +
-                    '<img src="' +
-                    projects[i].img +
-                    '">' +
-                    "</a>" +
-                    "<a target='_blank' class='card-btn' href=" +
-                    projects[i].website +
-                    ">" +
-                    projects[i].title +
-                    "</a>" +
-                    "</div>" +
-                    "</div>";
+                output += `<div class="col-md-4">
+                        <div class="project-card">
+                            <a target="_blank" href="${projects[i].website}">
+                                <img src="${projects[i].img}">
+                            </a>
+
+                            <a class="card-btn" target="_blank" href="${projects[i].website}">
+                                ${projects[i].title}
+                            </a>
+
+                        </div>
+
+                    </div>`;
             }
         }
 

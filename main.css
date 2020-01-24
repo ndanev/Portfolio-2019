@@ -54,6 +54,12 @@ html {
     transform: scale(1.1);
 }
 
+/* CURSOR FOR TYPE EFFECT */
+
+.txt-type > .txt {
+    border-right: 1px solid #777;
+}
+
 /* DROPDOWN MENU */
 
 #dropdown-menu {
